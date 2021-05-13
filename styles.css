@@ -1,0 +1,655 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Home Page */
+
+#Home {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(116.82deg, #000000 0%, rgba(22, 21, 21, 0) 100%),
+    #010001;
+  font-family: "Krona One", sans-serif;
+  font-style: normal;
+}
+
+/* Navigation Bar */
+nav {
+  width: 100%;
+  height: 70px;
+}
+.nav-brand {
+  position: absolute;
+  width: 145px;
+  height: 68.59px;
+  left: 149px;
+  top: 12px;
+  font-family: "Antonio";
+  font-weight: normal;
+  font-size: 54.95px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-items {
+  position: absolute;
+  width: 924px;
+  height: 26px;
+  left: 410px;
+  top: 41px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.nav-item:hover {
+  color: #808080;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.home-panel {
+  position: absolute;
+  width: 1280px;
+  height: 522px;
+  left: 80px;
+  top: 128px;
+  background: #ffffff;
+  box-shadow: 2px 10px 40px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+}
+.main-heading {
+  position: absolute;
+  width: 551px;
+  height: 146px;
+  left: 50px;
+  top: 30px;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heading-desc {
+  position: absolute;
+  width: 442px;
+  height: 130px;
+  left: 110px;
+  top: 235px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.heading-button {
+  position: absolute;
+  width: 318px;
+  height: 74px;
+  left: 50px;
+  top: 150px;
+  background: #000000;
+  border-radius: 25px;
+  font-family: "Krona One", sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  filter: drop-shadow(8px 4px 40px rgba(0, 0, 0, 0.3));
+  transition: 0.3s;
+}
+.heading-button:hover {
+  position: absolute;
+  top: 145px;
+  filter: drop-shadow(12px 8px 50px rgba(0, 0, 0, 0.3));
+  transition: 0.3s;
+  cursor: pointer;
+}
+.drone1 {
+  position: absolute;
+  width: 622.67px;
+  height: 527.82px;
+  left: 540px;
+  top: -180px;
+  background: url("Images/drone-image1.png");
+  transform: rotate(32.64deg);
+}
+/* Home Page End */
+
+/* Page 2 */
+#page2 {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  z-index: -15;
+}
+.named {
+  width: 500px;
+  height: 75.97px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  text-shadow: 2px 4px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.described {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.1739px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.priced {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 59.4783px;
+  text-align: center;
+  color: #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.order-button {
+  width: 250px;
+  height: 61.94px;
+  background: #000000;
+  border-radius: 22.482px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.7405px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  filter: drop-shadow(8px 4px 40px rgba(0, 0, 0, 0.3));
+}
+
+/* Drone 2 */
+.drone2-panel {
+  position: absolute;
+  width: 1288.74px;
+  height: 385.13px;
+  left: 75.33px;
+  top: 70.57px;
+  background: linear-gradient(
+      180.45deg,
+      #0d0b0b -0.02%,
+      rgba(255, 255, 255, 0) 96.74%
+    ),
+    #fafafa;
+  box-shadow: 2px 4px 40px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  z-index: -10;
+}
+.drone2-image {
+  position: absolute;
+  height: 456px;
+  width: 750px;
+  top: -30.08px;
+  left: -28.41px;
+  filter: drop-shadow(2px 4px 40px rgba(0, 0, 0, 0.5));
+  transform: rotate(0deg);
+  z-index: 5;
+}
+.drone2-name {
+  position: absolute;
+  left: 740.05px;
+  top: 5.85px;
+}
+.drone2-desc {
+  position: absolute;
+  width: 465px;
+  height: 34.44px;
+  left: 760px;
+  top: 120px;
+}
+.price1 {
+  position: absolute;
+  width: 236px;
+  height: 73.95px;
+  left: 880px;
+  top: 145px;
+}
+.button2 {
+  position: absolute;
+  left: 870px;
+  top: 300px;
+}
+
+/* Drone 3 */
+
+.drone3-panel {
+  position: absolute;
+  width: 1289.08px;
+  height: 386.9px;
+  left: 75.08px;
+  top: 516.27px;
+  background: linear-gradient(
+      85.2deg,
+      #363434 1.7%,
+      rgba(255, 255, 255, 0) 99.61%
+    ),
+    #fafafa;
+  box-shadow: 2px 4px 40px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+  z-index: -10;
+}
+.drone3-image {
+  position: absolute;
+  width: 769px;
+  height: 332px;
+  left: 520px;
+  top: 25px;
+  filter: drop-shadow(2px 4px 40px rgba(0, 0, 0, 0.2));
+}
+.drone3-name {
+  position: absolute;
+  top: -2px;
+  left: 65px;
+  width: 418px;
+  height: 72px;
+}
+.drone3-desc {
+  position: absolute;
+  width: 469px;
+  height: 34px;
+  left: 40px;
+  top: 110px;
+}
+.price2 {
+  position: absolute;
+  top: 140px;
+  left: 160px;
+}
+.button3 {
+  position: absolute;
+  top: 300px;
+  left: 143px;
+}
+
+/* Footer */
+
+#footer {
+  position: relative;
+  width: 1440px;
+  height: 422px;
+  background: #ffffff;
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: normal;
+}
+/* Contact Panel */
+
+.contact-info {
+  position: absolute;
+  height: 422px;
+  width: 363px;
+  left: -2px;
+  top: 0px;
+}
+.logo {
+  position: absolute;
+  left: 107px;
+  top: 71px;
+  width: 145px;
+  height: 75px;
+}
+.f-h3 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 300;
+}
+.address {
+  position: absolute;
+  width: 253px;
+  height: 71px;
+  left: 55px;
+  top: 165px;
+}
+.email-no {
+  position: absolute;
+  width: 303px;
+  height: 52px;
+  left: 30px;
+  top: 282px;
+}
+
+/* Social Panel */
+
+.social-footer-panel {
+  position: absolute;
+  width: 1077px;
+  height: 422px;
+  left: 363px;
+  top: 0px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.icons {
+  position: absolute;
+  width: 444px;
+  height: 64px;
+  left: 54px;
+  top: 43px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  color: #ffffff;
+  font-size: 53px;
+  transition: 0.3s;
+}
+.icon:hover {
+  color: #808080;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Newsletter */
+
+.newsletter-panel {
+  position: absolute;
+  top: 44px;
+  left: 623px;
+  width: 405px;
+  height: 240px;
+}
+.news-text {
+  position: absolute;
+  top: 4px;
+  left: 105px;
+  width: 194px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: center;
+}
+input {
+  position: absolute;
+  top: 103px;
+  left: 10px;
+  width: 378px;
+  height: 45px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+.news-button {
+  position: absolute;
+  width: 178px;
+  height: 59px;
+  left: 117px;
+  top: 175px;
+  background: #808080;
+  border-radius: 20px;
+  color: #000000;
+  font-family: "Krona One";
+  font-size: 18px;
+  transition: 0.3s;
+}
+.news-button:hover {
+  background: #4b4c4c;
+  top: 172px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Options Footer */
+.options {
+  position: absolute;
+  width: 159px;
+  height: 140px;
+  left: 90px;
+  top: 130px;
+}
+.foot-link-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+.foot-link-text:hover {
+  transition: 0.3s;
+  color: #808080;
+  cursor: pointer;
+}
+.products-footer {
+  position: absolute;
+  top: 130px;
+  left: 315px;
+  width: 165px;
+  height: 140px;
+  text-align: center;
+}
+.products-footer p {
+  font-size: 12px;
+  line-height: 19px;
+}
+.products-footer p:hover {
+  color: #808080;
+  cursor: pointer;
+}
+
+.hr {
+  border: 0.2px solid;
+  width: 1077px;
+  position: absolute;
+  top: 350px;
+  color: #ffffff;
+}
+
+/* End Of Footer Text */
+.copyright {
+  font-size: 12px;
+  font-weight: 100;
+  position: absolute;
+  bottom: 18px;
+  left: 35px;
+  width: 428px;
+  height: 16px;
+}
+.policy {
+  position: absolute;
+  right: 49px;
+  bottom: 38px;
+  width: 358px;
+  height: 18px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 100;
+}
+/* Footer End */
+
+#page3 {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(180deg, #acacac 0%, rgba(255, 255, 255, 0) 100%),
+    #f5f5f5;
+}
+#page3 h3 {
+  color: #ffffff;
+  font-family: "Krona One";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: normal;
+}
+#page3 p {
+  color: #ffffff;
+  font-family: "Krona One";
+  font-style: normal;
+}
+
+.panel {
+  background: #000000;
+  border-radius: 25px;
+  filter: drop-shadow(2px 4px 40px rgba(0, 0, 0, 0.75));
+}
+
+.contents {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+/* Design */
+
+.design-panel {
+  position: absolute;
+  width: 540px;
+  height: 400px;
+  left: 100px;
+  top: 25px;
+}
+
+.design-img {
+  position: absolute;
+  width: 331px;
+  height: 384px;
+  left: 158px;
+  top: 8px;
+}
+.design-head {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+}
+.design-info {
+  position: absolute;
+  width: 304px;
+  height: 89px;
+  top: 120px;
+  left: 47px;
+}
+
+/* Features */
+
+.features-panel {
+  position: absolute;
+  width: 651px;
+  height: 400px;
+  left: 689px;
+  top: 25px;
+}
+.feature-img {
+  position: absolute;
+  width: 651px;
+  height: 400px;
+  left: 0;
+  top: 0;
+}
+.features-head {
+  position: absolute;
+  top: 18px;
+  left: 218.5px;
+}
+.feature-info {
+  position: absolute;
+  width: 272px;
+  height: 188px;
+  left: 189px;
+  top: 122px;
+  text-align: center;
+}
+
+/* Price */
+
+.price-panel {
+  position: absolute;
+  width: 416px;
+  height: 400px;
+  left: 100px;
+  top: 458px;
+}
+.price-img {
+  position: absolute;
+  width: 368px;
+  height: 370px;
+  left: 26px;
+  top: 16px;
+}
+.price-head {
+  position: absolute;
+  left: 148px;
+  top: 15px;
+}
+h6 {
+  position: absolute;
+  width: 149px;
+  height: 25px;
+  left: 133.5px;
+  top: 100px;
+  font-size: 24.7059px;
+  font-family: "Krona One";
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+}
+.tax-info {
+  position: absolute;
+  left: 131px;
+  top: 178px;
+  font-size: 14px;
+}
+/* Accesories */
+
+.accesories-panel {
+  position: absolute;
+  width: 780px;
+  height: 400px;
+  left: 560px;
+  top: 457.58px;
+}
+.accesories-img {
+  position: absolute;
+  width: 530px;
+  height: 490px;
+  top: -44px;
+  left: 53px;
+}
+.accesories-head {
+  position: absolute;
+  right: 84px;
+  top: 18px;
+}
+.accesories-info {
+  position: absolute;
+  left: 445px;
+  top: 118px;
+  text-align: right;
+  line-height: 35px;
+}

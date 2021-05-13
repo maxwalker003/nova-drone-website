@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>NOVA</title>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio&family=Krona+One&family=Montserrat:wght@400;500;600&family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/536b069164.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Home Page -->
+    <section id="Home">
+      <!-- Navigation Bar -->
+      <nav>
+        <a class="nav-brand" href="#">NOVA</a>
+        <div class="navbar-items">
+          <a class="nav-item" href="#">Home</a>
+          <a class="nav-item" href="#">About Us</a>
+          <a class="nav-item" href="#">Our Vision</a>
+          <a class="nav-item" href="#page2">Products</a>
+          <a class="nav-item" href="#footer">Contact Us</a>
+        </div>
+      </nav>
+      <!-- Home Panel -->
+      <div class="home-panel">
+        <h1 class="main-heading" data-aos="fade-up">INTRODUCING NOVA BLACK</h1>
+        <div class="heading-desc">
+          <p data-aos="fade-up">
+            Our revolutionary new product, designed with portability in mind and
+            innovative technology inside.
+          </p>
+          <button class="heading-button" type="button" name="button" onclick="">
+            Find Out More
+          </button>
+          <div class="drone1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page 2 -->
+    <section id="page2">
+      <img class="bg-image" src="Images/page2-bg.png" alt="" />
+
+      <!-- Drone 2 -->
+      <div class="drone2-panel" data-aos="fade-right" data-aos-once="true">
+        <img class="drone2-image" src="Images/drone-image2.png" alt="" />
+        <h2 class="drone2-name named">NOVA THUNDER</h2>
+        <p class="drone2-desc described">The High End 4K Camera Drone.</p>
+        <p class="price1 priced">$299.99</p>
+        <button class="order-button button2" type="button" name="button">
+          Order
+        </button>
+      </div>
+
+      <!-- Drone 3 -->
+      <div class="drone3-panel" data-aos="fade-left" data-aos-once="true">
+        <img class="drone3-image" src="Images/drone-image3.png" alt="" />
+        <h2 class="drone3-name named">NOVA SWIFT</h2>
+        <p class="drone3-desc described">The Foldable And Agile Machine.</p>
+        <p class="price2 priced">$149.99</p>
+        <button class="order-button button3" type="button" name="button">
+          Order
+        </button>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="contact-info">
+        <img class="logo" src="Images/brand-logo.png" alt="" />
+        <h3 class="address f-h3">
+          2-chome, Chuo-ku, Higashi-Nihombashi, Tokyo, Japan
+        </h3>
+        <h3 class="email-no f-h3">1800-786-2003 novasupport@gmail.com</h3>
+      </div>
+      <div class="social-footer-panel">
+        <div class="icons">
+          <a href="https://www.facebook.com"
+            ><i class="fab fa-2x fa-facebook-f icon"></i
+          ></a>
+          <a href="https://www.twitter.com"
+            ><i class="fab fa-2x fa-twitter icon"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="fab fa-2x fa-instagram icon"></i
+          ></a>
+          <a href="https://www.linkedin.com"
+            ><i class="fab fa-2x fa-linkedin icon"></i
+          ></a>
+          <a href="https://www.wordpress.com"
+            ><i class="fab fa-2x fa-wordpress-simple icon"></i
+          ></a>
+        </div>
+        <div class="options">
+          <h3 class="foot-link-text">Home</h3>
+          <h3 class="foot-link-text">About Us</h3>
+          <h3 class="foot-link-text">Our Vision</h3>
+        </div>
+        <div class="products-footer">
+          <h3 class="foot-link-text">Products</h3>
+          <p>Nova Black</p>
+          <p>Nova Thunder</p>
+          <p>Nova Swift</p>
+        </div>
+        <div class="newsletter-panel">
+          <h2 class="news-text">Sign up for our newsletter.</h2>
+          <input
+            type="text"
+            placeholder="Enter your email"
+            name="email"
+            value=""
+          />
+          <button class="news-button" type="submit" name="button">
+            Sign Up
+          </button>
+        </div>
+        <div class="hr"></div>
+        <p class="copyright">Copyright 2021 NOVA, Inc. All rights reserved.</p>
+        <div class="policy">
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+        </div>
+      </div>
+    </section>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 300,
+      });
+    </script>
+  </body>
+</html>
